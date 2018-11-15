@@ -1,68 +1,51 @@
+＃我的Python示例。
 
-# My Python Examples.
+这是有关我编写的脚本的更详细信息。我不认为自己是程序员;我创建这些小程序作为实验来使用该语言，或者为我自己解决问题。我很乐意接受来自其他人的指针，以改进代码并使其更有效，或简化代码。如果您想发表任何意见，请随时发送电子邮件至craig@geekcomputers.co.uk。
+这些脚本是非常重要的功能，有助于减少人员的工作量。
+在脚本中，注释和其他文档在[Notepad ++]（https://notepad-plus-plus.org/）中查看时排列正确。这就是我用来编写Python脚本的代码。
 
-Here is more detailed information about scripts I have written.  I do not consider myself a programmer; I create these little programs as experiments to play with the language, or to solve problems for myself.  I would gladly accept pointers from others to improve the code and make it more efficient, or simplify the code.  If you would like to make any comments then please feel free to email me at craig@geekcomputers.co.uk.
-These scripts are very important functions which help reduce the workload on people.
-In the scripts the comments and other documents are lined up correctly when they are viewed in [Notepad++](https://notepad-plus-plus.org/). This is what I used to code Python scripts.
+- [batch_file_rename.py]（https://github.com/geekcomputers/Python/blob/master/batch_file_rename.py） - 一旦您传递了当前和新的扩展，此批处理将重命名给定目录中的一组文件。
 
-- [batch_file_rename.py](https://github.com/geekcomputers/Python/blob/master/batch_file_rename.py) - This batch renames a group of files in a given directory, once you pass the current and the new extensions.
+- [create_dir_if_not_there.py]（https://github.com/geekcomputers/Python/blob/master/create_dir_if_not_there.py） - 检查用户主目录中是否存在目录，如果没有则创建目录。
 
-- [create_dir_if_not_there.py](https://github.com/geekcomputers/Python/blob/master/create_dir_if_not_there.py) - Checks to see if a directory exists in the users home directory, if not then create it.
+- [Fast Youtube Downloader]（https://github.com/geekcomputers/Python/blob/master/youtube-downloader%20fast.py） - 使用aria2c通过并行线程快速下载YouTube视频
 
-- [Fast Youtube Downloader](https://github.com/geekcomputers/Python/blob/master/youtube-downloader%20fast.py) - Downloads YouTube videos quickly with parallel threads using aria2c
+- [Google Image Downloader]（https://github.com/geekcomputers/Python/tree/master/Google%20Image%20Downloader） - 查询特定术语并从谷歌图像数据库中检索图像。
 
-- [Google Image Downloader](https://github.com/geekcomputers/Python/tree/master/Google%20Image%20Downloader) - Query the specific term and retrieve images from the google image database.
+- [dir_test.py]（https://github.com/geekcomputers/Python/blob/master/dir_test.py） - 测试目录`testdir`是否存在，如果不存在，它将为您创建目录。
 
-- [dir_test.py](https://github.com/geekcomputers/Python/blob/master/dir_test.py) - Tests to see if the directory `testdir` exists, if not it will create the directory for you.
+- [env_check.py]（https://github.com/geekcomputers/Python/blob/master/env_check.py） - 此脚本将检查是否已设置所需的所有环境变量。
 
-- [env_check.py](https://github.com/geekcomputers/Python/blob/master/env_check.py) - This script will check to see if all of the environment variables required are set.
+- [fileinfo.py]（https://github.com/geekcomputers/Python/blob/master/fileinfo.py） - 显示给定文件的文件信息。
 
-- [fileinfo.py](https://github.com/geekcomputers/Python/blob/master/fileinfo.py) - Shows file information for a given file.
+- [folder_size.py]（https://github.com/geekcomputers/Python/blob/master/folder_size.py） - 扫描当前目录和所有子目录并显示大小。
 
-- [folder_size.py](https://github.com/geekcomputers/Python/blob/master/folder_size.py) - Scans the current directory and all subdirectories and displays the size.
+- [logs.py]（https://github.com/geekcomputers/Python/blob/master/logs.py） - 此脚本将搜索给定目录中的所有`* .log`文件，使用该程序压缩它们你指定，然后加盖日期戳。
 
-- [logs.py](https://github.com/geekcomputers/Python/blob/master/logs.py) - This script will search for all `*.log` files in the given directory, zip them using the program you specify, and then date stamp them.
+- [move_files_over_x_days.py]（https://github.com/geekcomputers/Python/blob/master/move_files_over_x_days.py） - 将所有超过240天的文件从源目录移动到目标目录。
 
-- [move_files_over_x_days.py](https://github.com/geekcomputers/Python/blob/master/move_files_over_x_days.py) - Moves all files over 240 days old from the source directory to the destination directory.
+- [nslookup_check.py]（https://github.com/geekcomputers/Python/blob/master/nslookup_check.py） - 这个简单的脚本打开文件`server_list.txt`，然后为每个文件执行nslookup检查DNS输入。
 
-- [nslookup_check.py](https://github.com/geekcomputers/Python/blob/master/nslookup_check.py) - This simple script opens the file `server_list.txt` and then does an nslookup for each one to check the DNS entry.
+- [osinfo.py]（https://github.com/geekcomputers/Python/blob/master/osinfo.py） - 显示有关运行此脚本的操作系统的一些信息。
 
-- [osinfo.py](https://github.com/geekcomputers/Python/blob/master/osinfo.py) - Displays some information about the OS on which you are running this script.
+- [ping_servers.py]（https://github.com/geekcomputers/Python/blob/master/ping_servers.py） - 根据提供的参数，此脚本将ping与该应用程序组关联的服务器。
 
-- [ping_servers.py](https://github.com/geekcomputers/Python/blob/master/ping_servers.py) - This script, depending on the arguments supplied, will ping the servers associated with that application group.
+- [ping_subnet.py]（https://github.com/geekcomputers/Python/blob/master/ping_subnet.py） - 提供前3个八位字节后，此文件扫描最终范围以查找可用地址。
 
-- [ping_subnet.py](https://github.com/geekcomputers/Python/blob/master/ping_subnet.py) - After supplying the first 3 octets this file scans the final range for available addresses.
+- [powerdown_startup.py]（https://github.com/geekcomputers/Python/blob/master/powerdown_startup.py） - 此文件通过服务器列表并ping机器，如果它已启动它将加载putty会话，如果不是，它会通知你。
 
-- [powerdown_startup.py](https://github.com/geekcomputers/Python/blob/master/powerdown_startup.py) - This file goes through the server list and pings the machine, if it is up it will load the putty session, if it is not it will notify you.
+- [puttylogs.py]（https://github.com/geekcomputers/Python/blob/master/puttylogs.py） - 此文件会压缩给定目录中的所有日志。
 
-- [puttylogs.py](https://github.com/geekcomputers/Python/blob/master/puttylogs.py) -  This file zips up all the logs in the given directory.
+- [script_count.py]（https://github.com/geekcomputers/Python/blob/master/script_count.py） - 此文件扫描脚本目录并计算不同类型的脚本。
 
-- [script_count.py](https://github.com/geekcomputers/Python/blob/master/script_count.py) - This file scans the scripts directory and gives a count of the different types of scripts.
+- [script_listing.py]（https://github.com/geekcomputers/Python/blob/master/script_listing.py） - 该文件将列出给定目录中的所有文件，并遍历所有子目录。
 
-- [script_listing.py](https://github.com/geekcomputers/Python/blob/master/script_listing.py) - This file will list all the files in the given directory, and go through all the subdirectories as well.
+- [testlines.py]（https://github.com/geekcomputers/Python/blob/master/testlines.py） - 这个简单的脚本打开一个文件，打印出100行，这些是行变量的集合。
 
-- [testlines.py](https://github.com/geekcomputers/Python/blob/master/testlines.py) - This simple script opens a file and prints out 100 lines of whatever is the set for the line variable.
+- [tweeter.py]（https://github.com/geekcomputers/Python/blob/master/tweeter.py） - 此脚本允许您从终端发送文本或图片。
 
-- [tweeter.py](https://github.com/geekcomputers/Python/blob/master/tweeter.py) - This script allows you to tweet text or a picture from the terminal.
+- [serial_scanner.py]（https://github.com/geekcomputers/Python/blob/master/serial_scanner.py）包含一个名为ListAvailablePorts的方法，该方法返回一个列表，其中包含计算机中正在使用的串行端口的名称，此方法仅适用于Linux和Windows（可以扩展为mac osx）。如果未找到端口，则返回空列表。
 
-- [serial_scanner.py](https://github.com/geekcomputers/Python/blob/master/serial_scanner.py) contains a method called ListAvailablePorts which returns a list with the names of the serial ports that are in use in the computer, this method works only on Linux and Windows (can be extended for mac osx). If no port is found, an empty list is returned.
+- [get_youtube_view.py]（https://github.com/geekcomputers/Python/blob/master/get_youtube_view.py） - 这是一个非常简单的python脚本，可以为您的YouTube视频提供更多视图。适用于在YouTube上重复播放歌曲。
 
-- [get_youtube_view.py](https://github.com/geekcomputers/Python/blob/master/get_youtube_view.py) - This is very simple python script to get more views for your YouTube videos. Useful for repeating songs on YouTube.
-
-- [CountMillionCharacter.py](https://github.com/geekcomputers/Python/blob/master/CountMillionCharacter.py) And [CountMillionCharacter2.0](https://github.com/geekcomputers/Python/blob/master/CountMillionCharacters-2.0.py).py - Counts character scripts, or how much characters are present on any text based file.
-
-- [xkcd_downloader.py](https://github.com/geekcomputers/Python/blob/master/xkcd_downloader.py) - Downloads the latest XKCD comic and places them in a new folder called "comics".
-
-- [timymodule.py](https://github.com/geekcomputers/Python/blob/master/timymodule.py) - A great alternative to Pythons 'timeit' module and easier to use.
-
-- [calculator.py](https://github.com/geekcomputers/Python/blob/master/calculator.py) - Uses Python's eval() function to implement a calculator.
-
-- [Google_News.py](https://github.com/geekcomputers/Python/blob/master/Google_News.py) - Uses BeautifulSoup to provide Latest News Headline along with news link.
-
-- [cricket_live_score](https://github.com/geekcomputers/Python/blob/master/Cricket_score.py) - Uses BeautifulSoup to provide live cricket score.
-
-- [youtube.py](https://github.com/geekcomputers/Python/blob/master/youtube.py) - Takes a song name as input and fetches the YouTube url of the best matching song and plays it.  
-
-- [site_health.py](https://github.com/geekcomputers/Python/blob/master/site_health.py) - This script is very useful for when you just to do a health check on a remote server.
-
-- [SimpleStopWatch.py](https://github.com/geekcomputers/Python/blob/master/SimpleStopWatch.py) - Simple Stop Watch implementation using Python's time module.
+- [CountMillionChara
